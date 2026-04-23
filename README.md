@@ -13,8 +13,8 @@
 ### 1. 数据处理
 - **输入数据**：`esol.csv`，包含以下关键列：
   - 特征：
-  - `smiles`：分子的 SMILES 字符串表示。
-  - 额外分子描述符：`Minimum Degree`、`Molecular Weight`、`Number of H-Bond Donors`、`Number of Rings`、`Number of Rotatable Bonds`、`Polar Surface Area`。
+    - `smiles`：分子的 SMILES 字符串表示。
+    - 额外分子描述符：`Minimum Degree`、`Molecular Weight`、`Number of H-Bond Donors`、`Number of Rings`、`Number of Rotatable Bonds`、`Polar Surface Area`。
   - 标签：`measured log solubility in mols per litre`：实验测得的 log 溶解度（目标变量）。
 - **数据划分**：训练集:验证集:测试集 = 8:1:1，随机划分，保证数据分布一致。
 
